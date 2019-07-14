@@ -246,10 +246,7 @@ public class SelectOrderWindow extends JWindow implements ParentWindow {
 		
 		return orderData;
 	}		
-	
-	
 
-	
     private void updateTable() {
         
         table.setModel(model);
