@@ -1,4 +1,4 @@
-package sql;
+package repository.sql;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -8,7 +8,6 @@ import java.util.List;
 import domains.Account;
 import domains.Address;
 import domains.Customer;
-import domains.Order;
 import repository.SqlGenericDAO;
 
 public class CustomerRepoImpl extends SqlGenericDAO<Customer> {
