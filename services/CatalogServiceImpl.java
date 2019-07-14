@@ -3,7 +3,7 @@ package services;
 import java.util.List;
 
 import repository.GenericDAO;
-import sql.CatalogRepoImpl;
+import repository.sql.CatalogRepoImpl;
 
 import domains.Catalog;
 

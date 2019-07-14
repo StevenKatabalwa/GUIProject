@@ -3,7 +3,7 @@ package services;
 import java.util.List;
 
 import repository.GenericDAO;
-import sql.ProductRepoImpl;
+import repository.sql.ProductRepoImpl;
 
 import domains.Product;
 

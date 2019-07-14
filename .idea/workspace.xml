@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f57f311d-f3f1-4317-9c62-ef6bcc4cafee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/domains/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Address$AddressBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Address$AddressBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Catalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Catalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Customer$CustomerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Customer$CustomerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/ItemLister.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/ItemLister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Order$OrderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Order$OrderBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/OrderList$OrderListBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/OrderList$OrderListBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/OrderList.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/OrderList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Product$ProductBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Product$ProductBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/ShoppingCart$ShoppingCartBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/ShoppingCart$ShoppingCartBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/domains/ShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditCatalog$BackListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/AddEditCatalog$BackListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditCatalog$SaveListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/AddEditCatalog$SaveListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/AddEditCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditProduct$BackListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/AddEditProduct$BackListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditProduct$SaveListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/AddEditProduct$SaveListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/AddEditProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CartItemsWindow$ContinueListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/CartItemsWindow$ContinueListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CartItemsWindow$ProceedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/CartItemsWindow$ProceedListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CartItemsWindow$SaveCartListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/CartItemsWindow$SaveCartListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CartItemsWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/CartItemsWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CatalogListWindow$BackToMainButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/CatalogListWindow$BackToMainButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CatalogListWindow$BrowseButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/CatalogListWindow$BrowseButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CatalogListWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/CatalogListWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CustomTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/CustomTableModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/DefaultData.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/DefaultData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/EbazaarMainFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$MaintainCatalogTypesActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/EbazaarMainFrame$MaintainCatalogTypesActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$MaintainProductActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/EbazaarMainFrame$MaintainProductActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$PurchaseOnlineActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/EbazaarMainFrame$PurchaseOnlineActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$RetrieveCartActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/EbazaarMainFrame$RetrieveCartActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$SelectOrderActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/EbazaarMainFrame$SelectOrderActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/EbazaarMainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ExitButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ExitButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/FinalOrderWindow$CancelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/FinalOrderWindow$CancelListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/FinalOrderWindow$SubmitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/FinalOrderWindow$SubmitListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/FinalOrderWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/FinalOrderWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/GuiControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/GuiControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/LoginWindow$CancelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/LoginWindow$CancelListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/LoginWindow$SubmitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/LoginWindow$SubmitListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/LoginWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/LoginWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes$AddButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainCatalogTypes$AddButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes$BackButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainCatalogTypes$BackButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes$DeleteButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainCatalogTypes$DeleteButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes$EditButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainCatalogTypes$EditButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainCatalogTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$AddButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainProductCatalog$AddButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$BackToMainButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainProductCatalog$BackToMainButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$ComboBoxListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainProductCatalog$ComboBoxListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$DeleteButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainProductCatalog$DeleteButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$EditButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainProductCatalog$EditButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$SearchButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainProductCatalog$SearchButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MaintainProductCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ParentWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ParentWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/PaymentWindow$BackToCartListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/PaymentWindow$BackToCartListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/PaymentWindow$ProceedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/PaymentWindow$ProceedListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/PaymentWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/PaymentWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductDetailsWindow$AddToCartListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ProductDetailsWindow$AddToCartListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductDetailsWindow$BackToCatalogListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ProductDetailsWindow$BackToCatalogListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductDetailsWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ProductDetailsWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductListWindow$BackButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ProductListWindow$BackButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductListWindow$SelectButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ProductListWindow$SelectButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductListWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ProductListWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/QuantityWindow$CancelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/QuantityWindow$CancelListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/QuantityWindow$OkListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/QuantityWindow$OkListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/QuantityWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/QuantityWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow$CancelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SelectOrderWindow$CancelListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow$ViewDetailsListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SelectOrderWindow$ViewDetailsListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SelectOrderWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShipAddressesWindow$CancelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ShipAddressesWindow$CancelListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShipAddressesWindow$SelectListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ShipAddressesWindow$SelectListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShipAddressesWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ShipAddressesWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShippingBillingWindow$BackToCartButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ShippingBillingWindow$BackToCartButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShippingBillingWindow$ProceedCheckoutButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ShippingBillingWindow$ProceedCheckoutButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShippingBillingWindow$SelectShipButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ShippingBillingWindow$SelectShipButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShippingBillingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ShippingBillingWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/TermsWindow$ProceedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/TermsWindow$ProceedListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/TermsWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/TermsWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ViewOrderDetailsWindow$OkButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ViewOrderDetailsWindow$OkButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ViewOrderDetailsWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ViewOrderDetailsWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/WindowBorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/WindowBorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/GenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/SqlGenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/SqlGenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CatalogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/CatalogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CatalogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/CatalogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CatalogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/CatalogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/GenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/GenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/CatalogRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/CatalogRepoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/CustomerRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/CustomerRepoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/OrderRepoImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/OrderRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/OrderRepoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/ProductRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/ProductRepoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/CardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/CardType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/OrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/ShippingStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/ShippingStatus.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/ProductListWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repository/SqlGenericDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GUIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUIProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUIProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GUIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GUIProject" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="EbazaarMainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.EbazaarMainFrame" />
+      <module name="GuiProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EbazaarMainFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f57f311d-f3f1-4317-9c62-ef6bcc4cafee" name="Default Changelist" comment="" />
+      <created>1563076006727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563076006727</updated>
+      <workItem from="1563076010640" duration="771000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="771000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gui/MaintainProductCatalog.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/ProductListWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/SqlGenericDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_181</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GuiProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_181</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
