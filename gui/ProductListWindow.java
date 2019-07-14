@@ -115,7 +115,6 @@ public class ProductListWindow extends javax.swing.JWindow implements ParentWind
  	 */
 	public ProductListWindow(String type) {
 		this.catalogType = type;
-		
 		initializeWindow();
 		initializeTableHeaderTable();
 		defineMainPanel();
@@ -186,8 +185,6 @@ public class ProductListWindow extends javax.swing.JWindow implements ParentWind
 		tablePane.getViewport().add(table);
 		updateTable();
 		
-
-		
 	}
 	
 	public void updateModel(List<String[]> list){
@@ -232,70 +229,18 @@ public class ProductListWindow extends javax.swing.JWindow implements ParentWind
         	    //Example:
         	    //  String aProductName = //read from Product table
         	    //  theData.add(new String[]{aProductName});
-        			
-        		System.out.println("using db: ProductListWindow");
-//            	Connection con = null;
-//            	Statement stmt = null;
-//            	String dburl = "jdbc:mysql:///ProductsDb";
-//            	String insertStmt = "";
-//            	String selectStmt = "";
-//            	
-//            	
-//        		try {
-//        			Class.forName("com.mysql.jdbc.Driver");
-//        		}
-//        		catch(ClassNotFoundException e){
-//        			//debug
-//        			e.printStackTrace();
-//        		}
-//        		try{
-//        			con = DriverManager.getConnection(dburl, "root", "root");
-//        		}
-//        		catch(SQLException e){
-//        			System.out.println(e.getMessage());
-//        			e.printStackTrace();
-//        		}
-//        		try {
-//        			stmt = con.createStatement();
-//        			catalogType="Clothing";
-//        			ResultSet rs = stmt.executeQuery("SELECT catalogid FROM CatalogType where catalogName='"+catalogType+"'");
-//        		
-//        			int id=0;
-//        			
-//        			while(rs.next()){
-//        			id = Integer.parseInt(rs.getString("catalogid"));
-//        			
-//        			System.out.println("This is my id:"+id);
-//        			//populate products for that catalog
-//        			}
-//        			
-//        			rs=stmt.executeQuery("Select * from product where catalogid='"+id+"'");
-//        			
-//        			while(rs.next()){
-//        				String [] str=new String[4];
-//          				str[0]=rs.getString("productname");
-//          				str[1]=rs.getString("description");
-//          				theData.add(str);		
-//        			}
-//        			
-//        			stmt.close();
-//        			con.close();
-//        		}
-//        		catch(SQLException s){
-//        			s.printStackTrace();
-//        		}
-
+        		
         		Catalog catalog=catalogService.findByName(catalogType);
         		
         		List<Product> products=productService.findAll();
         		
         		for(Product product : products){
         			
-        			theData.add(new String [] {product.getName()});
-        			
-        		}
-     
-        		
+        			if(product.getCatalog()==catalog.getId()){
+        				
+        				theData.add(new String [] {product.getName()});	
+        			}
+        		}	
         }
 		updateModel(theData);
  	}		

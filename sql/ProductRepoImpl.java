@@ -11,7 +11,7 @@ import repository.SqlGenericDAO;
 public class ProductRepoImpl extends SqlGenericDAO<Product> {
 
 	public ProductRepoImpl(){
-		super();
+		super("Productsdb");
 	}
 	
 	@Override
@@ -35,7 +35,6 @@ public class ProductRepoImpl extends SqlGenericDAO<Product> {
 
 			return null;
 		}
-		
 		
 	}
 

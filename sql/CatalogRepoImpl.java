@@ -10,6 +10,10 @@ import repository.SqlGenericDAO;
 
 public class CatalogRepoImpl extends SqlGenericDAO<Catalog> {
 
+	public CatalogRepoImpl(){
+		super("Productsdb");
+	}
+	
 	@Override
 	public Catalog create(Catalog obj) {
 		// TODO Auto-generated method stub

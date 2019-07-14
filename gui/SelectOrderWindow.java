@@ -22,6 +22,14 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JWindow;
 
+import domains.Customer;
+import domains.Order;
+
+import services.CustomerService;
+import services.CustomerServiceImpl;
+import services.OrderService;
+import services.OrderServiceImpl;
+
 /**
  * 
  * @author pcorazza 
@@ -66,8 +74,9 @@ public class SelectOrderWindow extends JWindow implements ParentWindow {
 	JPanel upper, middle, lower;
 	
 	//constants
-	private final boolean USE_DEFAULT_DATA = true;
-
+	private final boolean USE_DEFAULT_DATA = false;
+	
+	
     private final String ORDER_ID = "Order ID";
     private final String DATE = "Date";
     
@@ -78,6 +87,9 @@ public class SelectOrderWindow extends JWindow implements ParentWindow {
     private final String VIEW_DETAILS_BUTN = "View Details";
     private final String CANCEL_BUTN = "Cancel";
 
+    //services
+    private final CustomerService customerService=new CustomerServiceImpl();
+	private final OrderService orderService=new OrderServiceImpl();
     
     //table config
 	private final String[] DEFAULT_COLUMN_HEADERS = {ORDER_ID,DATE,TOTAL};
@@ -208,7 +220,14 @@ public class SelectOrderWindow extends JWindow implements ParentWindow {
 		List<String> allIds = new ArrayList<String>();
 		//now populate this list with all order ids that
 		//are associated with this custId in the Order table
- 
+		Customer customer=customerService.find(Long.parseLong(custId));
+		
+		List<Order> orders=orderService.findAll();
+		
+		for(Order order : orders){
+			allIds.add(String.valueOf(order.getId()));
+		}
+		
 		return allIds;
 			
 	}
@@ -219,7 +238,11 @@ public class SelectOrderWindow extends JWindow implements ParentWindow {
 		//write code here that populates this 3-element string array
 		//with the appropriate order info for this orderId:
 		//          orderid, orderdate, totalpriceamount
+		Order order=orderService.find(Long.valueOf(orderId));
 		
+		orderData[0]=String.valueOf(order.getId());
+		orderData[1]=order.getDate();
+		orderData[2]=String.valueOf(order.getTotalItemsPrice());
 		
 		return orderData;
 	}		

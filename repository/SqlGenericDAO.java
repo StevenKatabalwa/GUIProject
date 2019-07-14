@@ -11,11 +11,13 @@ public abstract class SqlGenericDAO<T> implements GenericDAO<T> {
 
 	protected Connection con = null;
 	protected Statement stmt = null;
-	protected String dburl = "jdbc:mysql:///ProductsDb";
+	protected String dburl = "jdbc:mysql:///";
 	protected String insertStmt = "";
 	protected String selectStmt = "";
 	
-	public SqlGenericDAO(){
+	public SqlGenericDAO(String db){
+		
+		dburl=dburl+db;
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
