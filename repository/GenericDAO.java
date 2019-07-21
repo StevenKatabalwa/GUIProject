@@ -13,4 +13,5 @@ public interface GenericDAO<T>
 		public T update(T obj);		
 		
 		public T findByName(String name);
+
 }

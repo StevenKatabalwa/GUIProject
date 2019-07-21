@@ -2,20 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f57f311d-f3f1-4317-9c62-ef6bcc4cafee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow$CancelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SelectOrderWindow$CancelListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow$ViewDetailsListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SelectOrderWindow$ViewDetailsListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SelectOrderWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuiProject.eml" beforeDir="false" afterPath="$PROJECT_DIR$/GuiProject.eml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Address$AddressBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Catalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Customer$CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/ItemLister.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Order$OrderBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/OrderList$OrderListBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/OrderList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Product$ProductBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/ShoppingCart$ShoppingCartBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domains/ShoppingCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditCatalog$BackListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditCatalog$SaveListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditCatalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditProduct$BackListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditProduct$SaveListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/AddEditProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CartItemsWindow$ContinueListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CartItemsWindow$ProceedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CartItemsWindow$SaveCartListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CartItemsWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CatalogListWindow$BackToMainButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CatalogListWindow$BrowseButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CatalogListWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/CustomTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/DefaultData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$MaintainCatalogTypesActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$MaintainProductActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$PurchaseOnlineActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$RetrieveCartActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame$SelectOrderActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/EbazaarMainFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ExitButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/FinalOrderWindow$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/FinalOrderWindow$SubmitListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/FinalOrderWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/GuiControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/LoginWindow$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/LoginWindow$SubmitListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/LoginWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes$AddButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes$BackButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes$DeleteButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes$EditButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainCatalogTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$AddButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$BackToMainButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$ComboBoxListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$DeleteButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$EditButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog$SearchButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/MaintainProductCatalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ParentWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/PaymentWindow$BackToCartListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/PaymentWindow$ProceedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/PaymentWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductDetailsWindow$AddToCartListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductDetailsWindow$BackToCatalogListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductDetailsWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductListWindow$BackButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductListWindow$SelectButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ProductListWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/QuantityWindow$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/QuantityWindow$OkListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/QuantityWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow$ViewDetailsListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/SelectOrderWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/SelectOrderWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/sql/CatalogRepoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/sql/CatalogRepoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/sql/CustomerRepoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/sql/CustomerRepoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/sql/OrderRepoImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/sql/OrderRepoImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/sql/OrderRepoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/sql/OrderRepoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/sql/ProductRepoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/repository/sql/ProductRepoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/CatalogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/CatalogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShipAddressesWindow$CancelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShipAddressesWindow$SelectListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShipAddressesWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShippingBillingWindow$BackToCartButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShippingBillingWindow$ProceedCheckoutButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShippingBillingWindow$SelectShipButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShippingBillingWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/TermsWindow$ProceedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/TermsWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ViewOrderDetailsWindow$OkButtonListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ViewOrderDetailsWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/WindowBorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/GenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/SqlGenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/sql/CatalogRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/sql/CustomerRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/sql/OrderRepoImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/sql/OrderRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/sql/ProductRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CatalogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CatalogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/GenericService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/CardType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/OrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/ShippingStatus.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,34 +129,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/ProductListWindow.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repository/sql/OrderRepoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="-578">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <folding>
+                <element signature="e#2550#2557#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repository/SqlGenericDAO.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Optional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="391">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/EbazaarMainFrame.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/EbazaarMainFrame.java">
+        <entry file="file://$PROJECT_DIR$/domains/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            <state>
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -69,17 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui/SelectOrderWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="196" column="32" selection-start-line="196" selection-start-column="32" selection-end-line="196" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/domains/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="142">
+              <caret line="247" column="12" lean-forward="true" selection-start-line="247" selection-start-column="12" selection-end-line="247" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -93,6 +177,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/gui/SelectOrderWindow.java" />
+        <option value="$PROJECT_DIR$/repository/sql/OrderRepoImpl.java" />
       </list>
     </option>
   </component>
@@ -178,15 +263,16 @@
       <updated>1563076006727</updated>
       <workItem from="1563076010640" duration="771000" />
       <workItem from="1563076805336" duration="675000" />
-      <workItem from="1563077505234" duration="564000" />
+      <workItem from="1563077505234" duration="3406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2010000" />
+    <option name="totallyTimeSpent" value="4852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -197,8 +283,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -226,29 +312,8 @@
     <entry file="file://$PROJECT_DIR$/gui/MaintainProductCatalog.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/ProductListWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/SqlGenericDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gui/EbazaarMainFrame.class">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/EbazaarMainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GuiProject.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -260,13 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/SelectOrderWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="196" column="32" selection-start-line="196" selection-start-column="32" selection-end-line="196" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domains/ItemLister.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -274,10 +332,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gui/EbazaarMainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/CatalogListWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="209" column="12" selection-start-line="209" selection-start-column="12" selection-end-line="209" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/ProductListWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-373">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/domains/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domains/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/SelectOrderWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="247" column="12" lean-forward="true" selection-start-line="247" selection-start-column="12" selection-end-line="247" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/SqlGenericDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/sql/OrderRepoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#2550#2557#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -339,6 +456,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

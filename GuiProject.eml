@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component inherit-compiler-output="true" inheritJdk="true">
-	<output-test url="file://$MODULE_DIR$/out/test/GuiProject"/>
+	<output-test url="file://$MODULE_DIR$/../out/test/GuiProject"/>
 	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="mysql-connector-java-8.0.16.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/GUIProject/mysql-connector-java-8.0.16.jar!/"/>
+	</lib>
 </component>
