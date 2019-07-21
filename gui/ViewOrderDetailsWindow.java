@@ -198,13 +198,13 @@ public class ViewOrderDetailsWindow extends JWindow implements ParentWindow {
             theData = new LinkedList<String[]>();
             Order order = orderService.find(Long.parseLong(this.orderId));
 
-            List<Product> items = new ArrayList<>();
+            List<Product> items = new ArrayList<Product>();
 
             for (Map.Entry<Long, Integer> item : order.getOrderList().getItems().entrySet()) {
                 Product product = productService.find(item.getKey());
                 theData.add(new String[]
                         {
-                                item.getKey().toString(),
+                                product.getName(),
                                 item.getValue().toString(),
 						        String.valueOf(product.getUnitPrice()),
                                 String.valueOf(product.getQuantity()*product.getUnitPrice())
