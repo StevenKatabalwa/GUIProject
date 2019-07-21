@@ -115,7 +115,6 @@ public class SelectOrderWindow extends JWindow implements ParentWindow {
 		
 		setSize(GuiControl.SCREEN_WIDTH,GuiControl.SCREEN_HEIGHT);		
 		GuiControl.centerFrameOnDesktop(this);
-		
 	}
 	
 	private void defineMainPanel() {
@@ -131,6 +130,7 @@ public class SelectOrderWindow extends JWindow implements ParentWindow {
 		mainPanel.add(lower,BorderLayout.SOUTH);
 			
 	}
+
 	//label
 	public void defineUpperPanel(){
 		upper = new JPanel();

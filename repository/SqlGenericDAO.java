@@ -14,7 +14,9 @@ public abstract class SqlGenericDAO<T> implements GenericDAO<T> {
 	protected String dburl = "jdbc:mysql:///";
 	protected String insertStmt = "";
 	protected String selectStmt = "";
-	
+	private String user="root";
+	private String password="root";
+
 	public SqlGenericDAO(String db){
 		
 		dburl=dburl+db;
@@ -27,7 +29,7 @@ public abstract class SqlGenericDAO<T> implements GenericDAO<T> {
 			e.printStackTrace();
 		}
 		try{
-			con = DriverManager.getConnection(dburl, "root", "root");
+			startTransaction();
 		}
 		catch(SQLException e){
 			System.out.println(e.getMessage());
@@ -48,7 +50,11 @@ public abstract class SqlGenericDAO<T> implements GenericDAO<T> {
 			return null;
 		}	
 	}
-	
+
+	protected void startTransaction() throws SQLException{
+		con = DriverManager.getConnection(dburl, "root", "root");
+	}
+
 	protected void endTransaction() throws SQLException{
 		
 		if(!stmt.isClosed()) stmt.close();

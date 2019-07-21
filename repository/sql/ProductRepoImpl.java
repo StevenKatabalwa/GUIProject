@@ -18,6 +18,7 @@ public class ProductRepoImpl extends SqlGenericDAO<Product> {
 	public Product create(Product obj) {
 		// TODO Auto-generated method stub
 		try {
+
 			stmt=con.createStatement();
 			ResultSet rs=stmt
 			.executeQuery("insert into " +
@@ -42,6 +43,9 @@ public class ProductRepoImpl extends SqlGenericDAO<Product> {
 	public Product find(long id) {
 		// TODO Auto-generated method stub
 		try {
+
+			if(con.isClosed()) startTransaction();
+
 			stmt=con.createStatement();
 			ResultSet rs=stmt.executeQuery("select * from product where productid='"+id+"'");
 			
@@ -56,7 +60,7 @@ public class ProductRepoImpl extends SqlGenericDAO<Product> {
 				product.setCatalog(rs.getLong("catalogid"));
 			}	
 			
-			endTransaction();
+			//endTransaction();
 			
 			return product;
 			
