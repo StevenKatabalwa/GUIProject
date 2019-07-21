@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module classpath="eclipse" classpath-dir="$MODULE_DIR$" type="JAVA_MODULE" version="4" />
+<module version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$USER_HOME$/Downloads/external_jars.zip!/" />
+    <libelement value="jar://$MODULE_DIR$/mysql-connector-java-8.0.16.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/" expected_position="0" />
+    </src_description>
+  </component>
+</module>
