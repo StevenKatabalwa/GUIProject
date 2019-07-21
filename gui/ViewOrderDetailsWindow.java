@@ -204,7 +204,7 @@ public class ViewOrderDetailsWindow extends JWindow implements ParentWindow {
                 Product product = productService.find(item.getKey());
                 theData.add(new String[]
                         {
-                                item.getKey().toString(),
+                                product.getName(),
                                 item.getValue().toString(),
 						        String.valueOf(product.getUnitPrice()),
                                 String.valueOf(product.getQuantity()*product.getUnitPrice())
